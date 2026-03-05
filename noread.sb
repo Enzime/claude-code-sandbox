@@ -137,6 +137,9 @@
     ;; Gemini configuration
     (subpath (string-append (param "HOME_DIR") "/.gemini"))
 
+    ;; sprites.dev
+    (subpath (string-append (param "HOME_DIR") "/.sprites"))
+
     ;; Standard I/O devices
     (literal "/dev/stdout")
     (literal "/dev/stderr")
